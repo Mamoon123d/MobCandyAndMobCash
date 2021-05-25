@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/purewhite"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <ImageView
+
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:src="@drawable/invitefriendnew">
+
+    </ImageView>
+
+    <TextView
+        android:layout_marginTop="10sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Invite Your Friends To MobCash App So They Can Earn Paytm Money Too!">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/inviteText"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/text_grey"
+        android:textSize="16sp"
+        android:fontFamily="serif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="details">
+
+    </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:background="@drawable/dash_border_refferal"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginLeft="@dimen/_12sdp">
+
+
+                <TextView
+                    android:id="@+id/invite_user_id"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_width="0dp"
+                    android:layout_weight="9"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ReferCode"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    />
+
+                <ImageView
+                    android:id="@+id/imgCopy"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:src="@drawable/copy_referal_img"
+                    android:layout_weight="1">
+
+                </ImageView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_stub"
+                android:padding="@dimen/_6sdp"
+                android:background="@color/purewhite"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_16sdp"
+                    android:text="Share with your friends" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/layout_share_fb"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/_8sdp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:padding="@dimen/_3sdp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/icon_share_fb" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/_11sdp"
+                            android:text="Facebook" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_share_whatsapp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/_8sdp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/_3sdp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/icon_share_whatsapp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/_11sdp"
+                            android:text="Whatsapp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_share_telegram"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/_8sdp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/telegram_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/_11sdp"
+                            android:text="Telegram" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_share_more"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/_8sdp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:padding="@dimen/_3sdp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/icon_share_more" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:textStyle="bold"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/_11sdp"
+                            android:text="More" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

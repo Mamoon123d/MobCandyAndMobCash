@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/login_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/app_icon"
+                tools:ignore="VectorDrawableCompat"
+                />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/appCompatTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="@string/app_name"
+            android:fontFamily="@font/unicaone"
+            android:textStyle="bold"
+            android:textColor="@color/purewhite"
+            android:textSize="55sp"
+            tools:ignore="HardcodedText"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="448dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

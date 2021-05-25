@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey">
+
+    <TextView
+        android:paddingTop = "8sp"
+        android:id="@+id/dailyTask"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Tasks" />
+
+    <LinearLayout
+        android:id="@+id/dailyTasklayout"
+        android:background="@color/purewhite"
+        android:layout_below="@+id/dailyTask"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:id="@+id/AttendanceButtonLayout"
+            android:background="@color/purewhite"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_margin="7sp"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="0.1"
+                android:src="@drawable/calendar">
+            </ImageView>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/appTitle"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Attendance Rewards"
+                    android:textSize="16sp"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:textColor="#757575"
+                    android:id="@+id/descriptions"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Check-in Daily"
+                    android:textSize="12sp"
+                    >
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:background="@drawable/drawable_round_bg"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:gravity="center"
+                android:layout_height="30sp">
+<TextView
+    android:id="@+id/attendanceRewardsText"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:fontFamily="serif"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:textColor="@color/purewhite"
+    android:textSize="11sp"
+    >
+</TextView>
+
+            </LinearLayout>
+
+    </LinearLayout>
+        <View
+            android:background="#c0c0c0"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+        </View>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="4sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="@dimen/common_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top Offer Of the Day">
+        </TextView>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/topOfferRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:textSize="17sp"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/popularOffers"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/dailyTasklayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular Offers">
+    </TextView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@+id/popularOffers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@color/purewhite"
+        android:id="@+id/popularOffersListRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loader_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        app:indicatorColor="@color/colorPrimaryDark"
+        app:indicatorName="BallPulseIndicator" />
+
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

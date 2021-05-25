@@ -1,0 +1,263 @@
+{
+  "project_info": {
+    "project_number": "514351419756",
+    "firebase_url": "https://mobcandyapp-72faf.firebaseio.com",
+    "project_id": "mobcandyapp-72faf",
+    "storage_bucket": "mobcandyapp-72faf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514351419756:android:a0e647e844c2630f5fe349",
+        "android_client_info": {
+          "package_name": "com.cashhub.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514351419756-mp3nf71sqvq4bui9goccacgfr2ooqaif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cashhub.android",
+            "certificate_hash": "9fb4afbf7e3d3977ffdcadeabdbdb7cb12dd117a"
+          }
+        },
+        {
+          "client_id": "514351419756-q6qm5mhfd00j7t3sdhjibqtsj1bsu3kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALn-GQeKlUuNxyq64Ox4GpfUmxQnGwR9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514351419756-q6qm5mhfd00j7t3sdhjibqtsj1bsu3kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514351419756:android:35e65bf0bfe581ea5fe349",
+        "android_client_info": {
+          "package_name": "com.mobcandy.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514351419756-71cubu0lcjq0m96tbbv2l02gnsv38lq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcandy.android",
+            "certificate_hash": "76f7b3f857fd605ebe62fc3a52da633f0482bf4e"
+          }
+        },
+        {
+          "client_id": "514351419756-82kkhbpkhgf7e7gmes5lbvladp0nb02m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcandy.android",
+            "certificate_hash": "1eef17e60f8446077722af2e85fbbd6724d734d6"
+          }
+        },
+        {
+          "client_id": "514351419756-g7sn63o2h2ss8dh973it0h7um9pag8s4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcandy.android",
+            "certificate_hash": "663fa4ab11f0fda9e8bf1b9c421ab309d615c2b8"
+          }
+        },
+        {
+          "client_id": "514351419756-o2c62raqaung61lslsbq3u28p9kqhk4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcandy.android",
+            "certificate_hash": "a2b2735906ada224e9c2293b9a5e20da99562c0b"
+          }
+        },
+        {
+          "client_id": "514351419756-vc5ln9t0tdocdjj09ke9jme3fq2cp23o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcandy.android",
+            "certificate_hash": "9b65de1798bc637cbbbe360b9e58e193eec510e5"
+          }
+        },
+        {
+          "client_id": "514351419756-q6qm5mhfd00j7t3sdhjibqtsj1bsu3kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALn-GQeKlUuNxyq64Ox4GpfUmxQnGwR9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514351419756-q6qm5mhfd00j7t3sdhjibqtsj1bsu3kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514351419756:android:05674dc8d3615bdb5fe349",
+        "android_client_info": {
+          "package_name": "com.mobcandy.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514351419756-1auag8k6apm9da3er2g37k40gmbs1e7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcandy.app",
+            "certificate_hash": "663fa4ab11f0fda9e8bf1b9c421ab309d615c2b8"
+          }
+        },
+        {
+          "client_id": "514351419756-c2uu02cm0jbir0svpuqgdi561s8j5nnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcandy.app",
+            "certificate_hash": "1eef17e60f8446077722af2e85fbbd6724d734d6"
+          }
+        },
+        {
+          "client_id": "514351419756-m5a6jsivk8jfpbtbaqmjgcm12f6rl07u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcandy.app",
+            "certificate_hash": "76f7b3f857fd605ebe62fc3a52da633f0482bf4e"
+          }
+        },
+        {
+          "client_id": "514351419756-sntqp23dhgqmjqt7h1jrv0rjjmdq3m8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcandy.app",
+            "certificate_hash": "a2b2735906ada224e9c2293b9a5e20da99562c0b"
+          }
+        },
+        {
+          "client_id": "514351419756-q6qm5mhfd00j7t3sdhjibqtsj1bsu3kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALn-GQeKlUuNxyq64Ox4GpfUmxQnGwR9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514351419756-q6qm5mhfd00j7t3sdhjibqtsj1bsu3kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514351419756:android:696b4e24aab70a6a5fe349",
+        "android_client_info": {
+          "package_name": "com.mobcash.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514351419756-34ena4h0ipmfkk0dnoma7h1mrod02een.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcash.android",
+            "certificate_hash": "9b65de1798bc637cbbbe360b9e58e193eec510e5"
+          }
+        },
+        {
+          "client_id": "514351419756-87gfg3b1kqg28g5ofdc1kf4ghd9r08er.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcash.android",
+            "certificate_hash": "a2b2735906ada224e9c2293b9a5e20da99562c0b"
+          }
+        },
+        {
+          "client_id": "514351419756-i6sblv7dcghe9ln5dorq9klmh1bo0kl5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcash.android",
+            "certificate_hash": "38812428e2e29999e9c916ad28fb4f90fd80fe05"
+          }
+        },
+        {
+          "client_id": "514351419756-imd300dqlamm99rq3r5prtltf3j8b4mj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcash.android",
+            "certificate_hash": "663fa4ab11f0fda9e8bf1b9c421ab309d615c2b8"
+          }
+        },
+        {
+          "client_id": "514351419756-kheld7m1a1gr9r0goh8d9q48f4s68o5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcash.android",
+            "certificate_hash": "1eef17e60f8446077722af2e85fbbd6724d734d6"
+          }
+        },
+        {
+          "client_id": "514351419756-lcjjlcobnf2o5rb9rnt9qbl8u3alt0do.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcash.android",
+            "certificate_hash": "9fb4afbf7e3d3977ffdcadeabdbdb7cb12dd117a"
+          }
+        },
+        {
+          "client_id": "514351419756-n21jcr1ujp1c9luct8ulb4ubaddtri9o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobcash.android",
+            "certificate_hash": "76f7b3f857fd605ebe62fc3a52da633f0482bf4e"
+          }
+        },
+        {
+          "client_id": "514351419756-q6qm5mhfd00j7t3sdhjibqtsj1bsu3kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALn-GQeKlUuNxyq64Ox4GpfUmxQnGwR9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514351419756-q6qm5mhfd00j7t3sdhjibqtsj1bsu3kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

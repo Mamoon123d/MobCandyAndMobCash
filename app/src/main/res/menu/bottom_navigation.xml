@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Tasks"
+        android:icon="@drawable/ic_tasks"
+        android:title="Tasks" />
+
+    <item
+        android:id="@+id/navigation_moreTasks"
+        android:icon="@drawable/ic_more_tasks"
+        android:title="More Tasks" />
+
+    <item
+        android:id="@+id/navigation_Payout"
+        android:icon="@drawable/ic_walletpay"
+        android:title="Payouts" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_myProfile"-->
+<!--        android:icon="@drawable/ic_profile"-->
+<!--        android:title="My Profile" />-->
+
+    <item
+        android:id="@+id/navigation_Setting"
+        android:icon="@drawable/ic_setting"
+        android:title="Others" />
+
+
+</menu>

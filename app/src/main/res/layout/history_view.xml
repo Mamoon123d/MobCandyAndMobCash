@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/purewhite"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="6sp"
+        android:background="@color/purewhite"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:padding="3sp"
+            android:layout_margin="7sp"
+            android:layout_width="0dp"
+            android:layout_height="55sp"
+            android:layout_weight="0.1"
+            android:src="@drawable/gold_coins">
+        </ImageView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:fontFamily="serif"
+                android:layout_height="wrap_content"
+                android:text="0 Paytm Payout"
+                android:textSize="16sp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:textColor="#757575"
+                android:id="@+id/descriptions"
+                android:layout_width="match_parent"
+                android:fontFamily="serif"
+                android:layout_height="wrap_content"
+                android:text="0 month 0 - Paid"
+                android:textSize="14sp"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:background="#c0c0c0"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </View>
+    </LinearLayout>
+</LinearLayout>

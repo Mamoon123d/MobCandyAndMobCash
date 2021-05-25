@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CashHub</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="selectpayment">* Select Payment Method</string>
+    <string name="email">Enter Email Id</string>
+    <string name="enternumber">Enter Paytm Number</string>
+    <string name="withdrawnow">Withdraw Now</string>
+    <string name="termofservices"><u>Terms &amp; Conditions</u></string>
+    <string name="privacypolicy">
+    <u>Privacy Policy</u></string>
+    <string name="loadingwait">Loading Plz Wait...</string>
+    <string name="rewarded_dialog_message">You have been rewarded</string>
+    <string name="systemmessage">System Message:</string>
+    <string name="channel_id">channel_id</string>
+    <string name="editorpics">User\'s Favourite</string>
+    <string name="todaysoffers">Today\'s Offer</string>
+    <string name="by_continuing">By Continuing you agree to our</string>
+
+    <string name="permissiondata">
+
+        By using MobCash App you agree to the Mintegral Privacy policy. You give MobCash/Mintegral hereby consent to collect &amp; process your INSTALLED APPLICATION information, So that we can provide you with similar or better Task Offers/Ads.
+
+    </string>
+
+    <string name="transactions">Transactions</string>
+    <string name="invite_and_earn">Invite And Earn</string>
+    <string name="how_it_works">How it works</string>
+    <string name="help_support">Help/Support</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="email_id">Email Id</string>
+    <string name="login">Login</string>
+    <string name="login_with_email">Login with Email</string>
+
+
+</resources>
