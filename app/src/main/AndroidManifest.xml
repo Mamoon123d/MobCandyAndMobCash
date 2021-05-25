@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mobcash.android">
+
+    <application
+        android:name="com.mobcash.android.Services.MyApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_app_instacash"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_app_instacash_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="n">
+        <activity android:name="com.mobcash.android.Activities.UserProfileActivity"/>
+
+        <activity
+            android:name="com.mobcash.android.Activities.OfferDetailsActivityNotification"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.mobcash.android.Activities.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mobcash.android.Activities.ShopingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobcash.android.Activities.OffersDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobcash.android.Activities.GoogleLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobcash.android.Activities.Transactions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobcash.android.Activities.WithdrawMoney"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobcash.android.Activities.InviteFriends"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobcash.android.Activities.FantasticOfferWall"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobcash.android.Activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+
+
+        <activity
+            android:name="com.mintegral.msdk.shell.MTGActivity"
+            android:configChanges="keyboard|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/MintegralAppTheme"/> <!-- AppWall for Immersive,pls Add " MintegralAppTheme" -->
+        <activity
+            android:name="com.mintegral.msdk.activity.MTGCommonActivity"
+            android:configChanges="keyboard|orientation"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity
+            android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+
+
+
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/insta_cash_logo" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="DC3vhLHQCANR15zVXP2Sv3t7zm54bqMAU4kAQswhy6U1hEyFQhlkwPivIexOxo3O3Uys9xvImVL5FD8P05N82A" />
+        <provider
+            android:name="com.mintegral.msdk.base.utils.MTGFileProvider"
+            android:authorities="${applicationId}.mtgFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/mtg_provider_paths" />
+        </provider>
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.mobcash.android.Services.PackageStatusReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_FIRST_LAUNCH" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.mintegral.msdk.shell.MTGService"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="com.mintegral.msdk.download.action" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.mobcash.android.Services.MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.gms.analytics.CampaignTrackingService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.WAKE_LOCK" />
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <uses-sdk tools:overrideLibrary="com.appnext.banners,com.appnext,com.appnext.nativeads,com.appnext.actionssdk,com.appnext.core" />
+
+</manifest>

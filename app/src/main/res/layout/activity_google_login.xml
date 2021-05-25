@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:id="@+id/main_layout"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+
+                android:id="@+id/login_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="260dp"
+                        android:layout_height="260dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/insta_cash_logo"
+                        tools:ignore="VectorDrawableCompat"
+                        />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/appCompatTextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:text="@string/app_name"
+                    android:fontFamily="@font/unicaone"
+                    android:textStyle="bold"
+                    android:textColor="@color/purewhite"
+                    android:textSize="55sp"
+                    tools:ignore="HardcodedText"
+                    tools:layout_editor_absoluteX="133dp"
+                    tools:layout_editor_absoluteY="448dp" />
+
+
+
+                <TextView
+                    android:id="@+id/btn_google_signin"
+                    android:layout_width="260dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="70dp"
+                    android:padding="15dp"
+                    android:text="Sign in with google"
+                    android:textAllCaps="true"
+                    android:textColor="#3F51B5"
+                    android:gravity="center"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_13sdp"
+                    android:background="@drawable/rounded_background_red"
+                    android:drawableLeft="@drawable/ic_googleicon"
+                    android:drawableStart="@drawable/ic_googleicon" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/Terms"
+                android:layout_below="@+id/login_content"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/white"
+                    android:text="@string/by_continuing"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvTerms"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#FBD302"
+                    android:text="@string/termofservices"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_below="@+id/Terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/white"
+                    android:text="and"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvPrivacy"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#FBD302"
+                    android:text="@string/privacypolicy"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

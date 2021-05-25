@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">MobCash</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="deposit_in_olymptrade_here_comes_your_rewards">Deposit in OlympTrade. Here comes your rewards!</string>
+    <string name="selectpayment">* Select Payment Method</string>
+    <string name="entercoin">Enter Credits</string>
+    <string name="email">Enter Email Id</string>
+    <string name="enternumber">Enter Paytm Number</string>
+    <string name="withdrawnow">Withdraw Now</string>
+    <string name="paypal_payout">5$ Paypal</string>
+    <string name="_10_paypal_payout">10$ Paypal</string>
+    <string name="termofservices"><u>Terms &amp; Conditions</u></string>
+    <string name="privacypolicy">
+    <u>Privacy Policy</u></string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="textprviacy">By Continuing You Indicate that You have Read and Agree to our Privacy Policy and Terms Of Services. </string>
+    <string name="loadingwait">Loading Plz Wait...</string>
+    <string name="initializing">Initializing</string>
+    <string name="show">Show</string>
+    <string name="load">Load</string>
+    <string name="rv">Rewarded Video</string>
+    <string name="ow">Offerwall</string>
+    <string name="is">Interstitial</string>
+    <string name="version">sdk version</string>
+    <string name="rewarded_dialog_header">Video Rewarded</string>
+    <string name="rewarded_dialog_message">You have been rewarded</string>
+    <string name="rvButtonState">rvButtonState</string>
+    <string name="isButtonState">isButtonState</string>
+    <string name="owButtonState">owButtonState</string>
+    <string name="systemmessage">System Message:</string>
+    <string name="channel_id">channel_id</string>
+    <string name="editorpics">User\'s Favourite</string>
+    <string name="todaysoffers">Today\'s Offer</string>
+    <string name="by_continuing">By Continuing you agree to our</string>
+    <string name="enter_name">Enter Name</string>
+
+    <string name="permission_request">
+        <b>Allow MobCash the following permissions \n\n</b>
+
+        <b>DEVICE ID &amp; ADVERTISING ID\n\n</b>
+
+        <b>Help us uniquely identify your device id and advertising id so we can send you best offers.\n\n</b>
+
+         <b>INSTALLED PACKAGE\n\n</b>
+
+        <b>We track installed app packages on your device so that we can provide you with similar or better offers\n\n</b>
+    </string>
+
+    <string name="permissiondata">
+
+        By using MobCash App you agree to the Mintegral Privacy policy. You give MobCash/Mintegral hereby consent to collect &amp; process your INSTALLED APPLICATION information, So that we can provide you with similar or better Task Offers/Ads.
+
+    </string>
+
+    <string name="mobcashPrivacyPolicy">
+        MobCash Privacy policy
+
+    </string>
+
+
+
+
+</resources>
